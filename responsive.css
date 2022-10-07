@@ -1,0 +1,58 @@
+@media screen and (max-width: 960px) {
+    .main-container {
+        flex-direction: column;
+        height: unset ;
+        width: unset;
+        margin-inline: 20px;
+        
+    }
+
+    .choice-section {
+        width: 100%;
+        margin-top: 30px;
+        padding-inline: 30px;
+    }
+
+    .bill {
+        width: unset;
+    }
+
+    .calc-section {
+        width: 94%;
+        margin-block: 30px;
+        margin-inline: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .calc-section {
+        margin-top: 90px;
+    }
+}
+
+
+
+@media screen and (max-width: 440px) {
+    .tip {
+        font-size: 19px;
+    }
+    
+    .tip-number {
+        font-size: 30px;
+    }
+
+    .total {
+        font-size: 19px;
+    }
+
+    .total-number {
+        font-size: 30px;
+    }
+}

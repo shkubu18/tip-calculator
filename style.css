@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #C5E4E7;
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+}
+
+/* Header styles */
+
+
+/* Main container styles */
+
+.main-container {
+    width: 940px;
+    height: 481px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* And off main container styles */
+
+
+/* Choice section styles */
+
+.choice-section {
+    width: 426px;
+    height: 420px;
+    padding-left: 10px;
+    margin-inline: 20px;
+}
+
+.bill {
+    display: flex;
+    align-items: center;
+    width: 379px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #F3F9FA;
+    padding-inline: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.choice-section label {
+    color: #5E7A7D;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.bill img {
+    padding-left: 10px;
+}
+
+.bill input {
+    width: 100%;
+    height: 36px;
+    border: none;
+    outline: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #00474B;
+    background-color: #F3F9FA;
+    cursor: pointer;
+    text-align: right;
+}
+
+.persentages button {
+    background: #00474B;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 117px;
+    height: 48px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.persentages button:focus {
+    background-color: #9FE8DF;
+    color: #00474B;
+}
+
+.costum {
+    color: #547878;
+    background: #F3F9FA;
+    width: 117px;
+}
+
+.costum input:focus {
+    border: 2px solid #26C2AE;
+}
+
+.costum input {
+    border: none;
+    outline: none;
+    background-color: #F3F9FA;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.number-of-people {
+    margin-top: 40px;
+}
+
+
+/* And off choice section styles */
+
+
+/* Calc section styles */
+
+.calc-section {
+    width: 426px;
+    height: 410px;
+    padding: 30px;
+    margin-inline: 20px;
+    background: #00474B;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.tip-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.tip {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.tip-number {
+    color: #26C2AE;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.person {
+    color: #7F9D9F;
+    font-size: 16px;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.total-number {
+    color: #26C2AE;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.reset button {
+    background: #0D686D;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00474B;
+    width: 333px;
+    height: 48px;
+}
+
+/* And off calc section styles */
